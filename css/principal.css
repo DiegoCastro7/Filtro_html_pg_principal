@@ -1,0 +1,47 @@
+
+html, body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.Seccion1{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 1%;
+}
+#SecDer1{
+    width: 100%;
+
+
+}
+#imgsecder1{
+    width: 125%;
+    position: absolute;
+    right: -1800px;
+    top: -1600px;
+}
+#logo{
+    width: 100%;
+}
+#imglogo{
+    width: 40%;
+}
+.botones{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+#boton{
+    width: 50%;
+    background-color: blue;
+    
+}
+a{
+    text-decoration: none;
+    color: white !important;
+}
+.etiquetas{
+    display: flex;;
+    padding: 1%;
+    justify-content: center;
+    
+}
