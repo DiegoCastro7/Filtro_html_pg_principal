@@ -1,4 +1,6 @@
-
+*{
+    margin: 0;
+}
 html, body{
     height: 100%;
     width: 100%;
@@ -27,21 +29,51 @@ html, body{
     width: 40%;
 }
 .botones{
-    display: grid;
-    grid-template-columns: 50% 50%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
 #boton{
-    width: 50%;
-    background-color: blue;
+    width: 25%;
+    background-color: #0050f5;
+    padding: 10px; 
+    border-radius: 50px; 
+    text-align: center;
     
 }
 a{
     text-decoration: none;
+
     color: white !important;
 }
 .etiquetas{
     display: flex;;
-    padding: 1%;
+    padding: 2%;
     justify-content: center;
-    
+    gap: 20px;
+    height: 10%;
+}
+#etiq{
+    height: 100%;
+}
+.Sec2{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+#Sec22{
+    display: flex;
+    justify-content: center;
+}
+.Seccion2 #textpq,#textgr{
+    text-align: center;
+}
+#imgsec2{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    height: 200px;
+}
+#imgs2{
+    height: 100%;
 }
