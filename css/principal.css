@@ -8,6 +8,8 @@
 }
 *{
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 html, body{
     font-family: MyriadPro-Regular;
@@ -20,11 +22,7 @@ html, body{
     grid-template-columns: 50% 50%;
     padding: 1%;
 }
-#SecDer1{
-    width: 100%;
 
-
-}
 #SecIzq1{
     padding: 2%;
     padding-right: 5%;
@@ -98,9 +96,7 @@ a{
 #imgs2{
     height: 100%;
 }
-#imgs3{
-    width: 100%;
-}
+
 #textpq{
     text-align: center;
     font-size: 17px;
@@ -124,7 +120,7 @@ a{
 }
 #textpqchi{
     text-align: center;
-    font-size: 11px;
+    font-size: 8px;
     font-family: MyriadPro-Light;
     
 }
@@ -149,13 +145,7 @@ a{
     justify-content: center;
     gap: 50px;
 }
-#imgsec5{
-    display: flex;
-    justify-content: center;
-    padding: 10px;
-    height: 200px;
-    width: 200px;
-}
+
 .Footer{
     display: flex;
     justify-content: center;
@@ -168,18 +158,29 @@ a{
 #textpqfooter{
     width: 13%;
     color: #ffffff;
-    text-align: center
+    text-align: center;
+    font-size: 12px
 }
 .Seccion6{
     text-align: center;
     background-image: url(../images/Campesinos.png) ;
     background-size: cover;
+    background-position: 70%;
+    width: 100% ;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
 }
 #Sec6{
     display: flex;
     justify-content: center;
     align-items: center ;
     gap: 20px;
+    height: 30%;
 
 }
 #imgs6{
@@ -187,4 +188,69 @@ a{
 }
 #img6{
     width: 100%;
+}
+#imgs5{
+    height: 100%;
+}
+
+#content{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+#content #textpq{
+    height: 35%;
+    display: flex;
+    align-items: center;
+}
+#content #textgr{
+    height: 35%;
+    display: flex;
+    align-items: end;
+    gap: 15px;
+}
+#amarillo{
+    color: rgb(251, 218, 74);
+    opacity: 70%;
+}
+#azul{
+    color: rgb(4, 4, 187);
+    opacity: 70%;
+}
+#rojo{
+    color: rgb(186, 5, 5);
+    opacity: 70%;
+}
+#imgsec5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    height: 200px;
+    width: 200px;
+}
+#iPad #imgsec5 #imgiPad{
+    height: 80%;
+}
+#imgs3{
+    width: 100%;
+}
+#imgsec3{
+    text-align: center;
+    background-image: url(../images/FZIyxxiPx6APvjtD.full.png) ;
+    background-size: cover;
+    background-position: 70%;
+    width: 100% ;
+    height: 1150px;
+}
+#SecDer1{
+    text-align: center;
+    background-image: url(../images/iPhoneTransparente.png) ;
+    background-size: cover;
+    background-position: 120%;
+    width: 150% ;
+    height: 1150px;
 }
