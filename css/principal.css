@@ -48,14 +48,24 @@ html, body{
     width: 32%;
     background-color: #0050f5;
     padding: 18px; 
+    border: 2px solid #0050F5;
     border-radius: 50px; 
     text-align: center;
     font-size: 32px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
     
+}
+#boton:hover {
+    background-color: #ffffff;
+    color:#0050F5;
+    border: 2px solid #0050F5;
+}
+#let:hover {
+    color:#0050F5;
 }
 a{
     text-decoration: none;
-
     color: white !important;
 }
 .etiquetas{
@@ -270,3 +280,27 @@ a{
     width: 220% ;
     height: 100%;
 }
+#SD{
+    overflow: hidden;
+}
+/* @media (max-width: 1500px){
+    #textgr{
+        font-size: 45px !important;
+        line-height: 60px !important;
+    }
+    #textpq{
+        font-size: 25px !important;
+    }
+    #boton{
+        font-size: 24px;
+    }
+    #SecDer1{
+        text-align: center;
+        background-image: url(../images/iPhoneTransparente.png) ;
+        background-size: cover;
+        background-position: -400px;
+        width: 160% ;
+        height: 100%;
+        top: 10%;
+    }
+} */
